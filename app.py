@@ -1,14 +1,3 @@
-import sys
-import streamlit as st
-
-st.write(sys.version)
-st.write(sys.executable)
-
-import joblib
-
-st.write("Joblib imported successfully")
-
-
 import os
 import joblib
 import pandas as pd
